@@ -1,6 +1,5 @@
 body {
 	text-align: center;
-	background: url(..images/redparty.png);
 	background-color: white 
 	font-family: Helvetica;
 }
@@ -10,7 +9,7 @@ body, html {
 }
 
 .hero-image {
-    background-image: url("redparty.png");
+    background-image: url("..images/redparty.png");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
