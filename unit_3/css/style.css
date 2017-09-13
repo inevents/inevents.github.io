@@ -1,11 +1,9 @@
 body {
     text-align: center;
+    background: url("images/redparty.png");
+    background-size: cover;
     background-color: white 
     font-family: Helvetica;
-}
-
-h1 {
-	color: #E6243D;
 }
 
 #slogan {
