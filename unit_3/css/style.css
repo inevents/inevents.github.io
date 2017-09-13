@@ -1,6 +1,6 @@
 body {
 	text-align: center;
-	background: url("..css/redparty.png");
+	background: url(..css/redparty.png);
 	background-color: white 
 	font-family: Helvetica;
 }
@@ -11,4 +11,8 @@ h1 {
 
 #slogan {
 	font-style: italic;
+}
+
+ul {
+    list-style-type: none;
 }
