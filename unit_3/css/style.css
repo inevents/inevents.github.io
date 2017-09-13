@@ -4,6 +4,9 @@ body {
     font-family: Helvetica;
 }
 
+h1 {
+    color: #E6243D
+}
 #slogan {
 	font-style: italic;
 }
