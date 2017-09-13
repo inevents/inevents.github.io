@@ -1,0 +1,14 @@
+body {
+	text-align: center;
+	background: url("..css/redparty.png");
+	background-color: white 
+	font-family: Helvetica;
+}
+
+h1 {
+	color: #E6243D;
+}
+
+#slogan {
+	font-style: italic;
+}
