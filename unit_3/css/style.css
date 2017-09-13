@@ -3,7 +3,7 @@ body, html {
 }
 
 .hero-image {
-    background-image: url("lights.jpeg");
+    background-image: url("..images/lights.jpeg");
     height: 50%;
     background-position: center;
     background-repeat: no-repeat;
