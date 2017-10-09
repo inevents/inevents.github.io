@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed');
+
+body {
+    text-align: center;
+    background-color: #FEFBFB;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #E6243D;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
