@@ -11,14 +11,35 @@ h1 {
     font-family: 'Roboto Condensed', sans-serif;
 }
 
-ul {
-	color: #616161;
+#two_columns {
+  padding: 20px;
 }
 
-.nav {
-	float: left;
+#navbar {
+	font-family: 'Lato', sans-serif;
+}
+
+nav a {
+	color: #616161;
+	text-decoration: none;
 	display: block;
-	padding: 8px;
+	float: left;
+	padding: 15px;
+}
+
+a {
+	color: #616161;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #BDBDBD;
+	text-decoration: underline;
+}
+
+#logo {
+	float: right;
+	padding: 20px;
 }
 
 
@@ -28,18 +49,6 @@ ul {
 
 #offerings {
 	text-align: center;
-}
-
-header {
-    background-color: #FFED74;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-nav {
-    background-color: #E8C66A;
-    border: 1px black solid;
-    padding: 20px;
 }
 
 #two_column {
@@ -77,18 +86,7 @@ nav {
 	float: left;
 }
 
-img {
-	width: 25%;
-}
-
-footer {
-    background-color: #FF957E;
-    border: 1px black solid;
-    padding: 20px;
-}
-
-section {
-    background-color: #FFE2B8;
-    border: 1px black solid;
-    padding: 20px;
+.footer_text {
+	display: block;
+	padding: 6px 15px;
 }
