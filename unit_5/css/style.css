@@ -21,9 +21,6 @@ ul {
 	padding: 8px;
 }
 
-#slogan {
-	font-style: italic;
-}
 
 ul {
     list-style-type: none;
@@ -43,6 +40,24 @@ nav {
     background-color: #E8C66A;
     border: 1px black solid;
     padding: 20px;
+}
+
+#two_column {
+	background-color: #FFB7CF;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#column_one {
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+}
+
+#column_two {
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
 }
 
 footer {
