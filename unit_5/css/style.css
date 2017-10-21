@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Roboto+Condensed');
+
+body {
+    text-align: left;
+    background-color: #FEFBFB;
+    font-family: 'Lato', sans-serif;
+}
+
+h1 {
+    color: #E6243D;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+ul {
+	color: #616161;
+}
+
+.nav {
+	float: left;
+	display: block;
+	padding: 8px;
+}
+
+#slogan {
+	font-style: italic;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#offerings {
+	text-align: center;
+}
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+nav {
+    background-color: #E8C66A;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+footer {
+    background-color: #FF957E;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+section {
+    background-color: #FFE2B8;
+    border: 1px black solid;
+    padding: 20px;
+}
