@@ -94,6 +94,94 @@ a:hover {
 	display: block;
 }
 
+#champagne {
+	position: relative;
+}
+
+#champagne:hover .text {
+	display: block;
+}
+
+#cocktails {
+	position: relative;
+}
+
+#cocktails:hover .text {
+	display: block;
+}
+
+#concert {
+	position: relative;
+}
+
+#concert:hover .text {
+	display: block;
+}
+
+#corporate {
+	position: relative;
+}
+
+#corporate:hover .text {
+	display: block;
+}
+
+#fireworks {
+	position: relative;
+}
+
+#fireworks:hover .text {
+	display: block;
+}
+
+#lecture {
+	position: relative;
+}
+
+#lecture:hover .text {
+	display: block;
+}
+
+#confetti {
+	position: relative;
+}
+
+#confetti:hover .text {
+	display: block;
+}
+
+#liveband {
+	position: relative;
+}
+
+#liveband:hover .text {
+	display: block;
+}
+
+#newyear {
+	position: relative;
+}
+
+#newyear:hover .text {
+	display: block;
+}
+
+#salad {
+	position: relative;
+}
+
+#salad:hover .text {
+	display: block;
+}
+
+#museum {
+	position: relative;
+}
+
+#museum:hover .text {
+	display: block;
+}
+
 .clearfix:after {
 	visibility: hidden;
 	display: block;
