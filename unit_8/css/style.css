@@ -147,21 +147,21 @@ a:hover {
 	margin: 10px 20px 0px 0px;
 }
 
-@media only screen and (max-width: 1500px) {
+@media (max-width: 1500px) {
 	.item {
 		width: 33%;
 	}
 
 }
 
-@media only screen and (max-width: 1200px) {
+@media (max-width: 1200px) {
 	#logo {
 		display: block;
 		text-align: center;
 	}
 }
 
-@media only screen and (max-width: 1000px) {
+@media (max-width: 1000px) {
 	.item {
 		width: 50%;
 	}
@@ -169,7 +169,6 @@ a:hover {
 
 @media only screen and (max-width: 780px) {
 	.item {
-		width: 80%;
 		float: center;
 	}
 }
