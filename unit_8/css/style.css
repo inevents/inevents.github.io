@@ -5,11 +5,17 @@ body {
     background-color: #FFFFFF;
     font-family: 'Lato', sans-serif;
     font-size: 18px;
+    padding-bottom: 80px;
 }
 
 h1 {
     color: #E6243D;
     font-family: 'Roboto Condensed', sans-serif;
+}
+
+img {
+	display: block;
+	width: 100%;
 }
 
 #two_columns {
@@ -39,9 +45,9 @@ a:hover {
 }
 
 #logo {
-	display: inline;
-	width: 100%;
-	margin: 10px 10px 55px 10px;
+	float: right;
+	width: 25%;
+	margin: 10px 20px 55px 10px;
 }
 
 * {
@@ -56,7 +62,7 @@ a:hover {
   position: relative;
   border: 1px;
   overflow: hidden;
- float: left;
+  float: left;
   width: 25%;
 }
 .item img {
@@ -74,111 +80,34 @@ a:hover {
   transform: scale(1.4);
 }
 
-#redparty {
-	position: relative;
-}
-
 .text {
 	position: absolute;
 	left: 50%;
-	margin-left: -40%;
-	margin-top: -40%;
-	right: 0;
 	top: 50%;
-	bottom: 0;
+	transform: translate(-50%, -50%);
 	color: white;
+	font-size: 1.2em;
 	display: none;
+	text-align: center;
+	z-index: 2;
 }
 
-#redparty:hover .text {
+.item-overlay {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	display: none;
+	z-index: 1;
+}
+
+.item:hover .item-overlay {
 	display: block;
 }
 
-#champagne {
-	position: relative;
-}
-
-#champagne:hover .text {
-	display: block;
-}
-
-#cocktails {
-	position: relative;
-}
-
-#cocktails:hover .text {
-	display: block;
-}
-
-#concert {
-	position: relative;
-}
-
-#concert:hover .text {
-	display: block;
-}
-
-#corporate {
-	position: relative;
-}
-
-#corporate:hover .text {
-	display: block;
-}
-
-#fireworks {
-	position: relative;
-}
-
-#fireworks:hover .text {
-	display: block;
-}
-
-#lecture {
-	position: relative;
-}
-
-#lecture:hover .text {
-	display: block;
-}
-
-#confetti {
-	position: relative;
-}
-
-#confetti:hover .text {
-	display: block;
-}
-
-#liveband {
-	position: relative;
-}
-
-#liveband:hover .text {
-	display: block;
-}
-
-#newyear {
-	position: relative;
-}
-
-#newyear:hover .text {
-	display: block;
-}
-
-#salad {
-	position: relative;
-}
-
-#salad:hover .text {
-	display: block;
-}
-
-#museum {
-	position: relative;
-}
-
-#museum:hover .text {
+.item:hover .text {
 	display: block;
 }
 
@@ -191,9 +120,35 @@ a:hover {
 	height: 0;
 }
 
-.footer_text {
-	display: block;
-	padding: 6px 15px;
+#footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background: #FFF;
+	width: 100%;
+	z-index: 3;
 }
 
+.footer_text {
+	display: inline-block;
+	float: left;
+	font-size: 14px;
+	padding: 18px 0px 18px 30px;
+	line-height: 150%;
+}
+
+#small {
+	line-height: 90%;
+}
+
+#instagram {
+	width: 50px;
+	float: right;
+	margin: 10px 20px 0px 0px;
+}
+
+@media screen only and (min-width: 1220px) {
+.item {
+float: none;
+}
 
